@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="com.vergingames.testsuite.GameTest" skipped="0" tests="2" time="1.2" timestamp="2020-06-05T22:33:07.117+01:00[Europe/London]"><testcase classname="com.vergingames.testsuite.GameTest" name="This test will Get All Games"><error message="baseURI cannot be null" type="java.lang.IllegalArgumentException">baseURI cannot be null</error><system-err>baseURI cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.&lt;init&gt;(RequestSpecificationImpl.groovy:132)&#13;
+io.restassured.RestAssured.createTestSpecification(RestAssured.java:1492)&#13;
+io.restassured.RestAssured.given(RestAssured.java:711)&#13;
+net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:211)&#13;
+net.serenitybdd.rest.SerenityRest.rest(SerenityRest.java:45)&#13;
+com.vergingames.steps.GameSteps.getAllGames(GameSteps.java:17)&#13;
+com.vergingames.testsuite.GameTest.getAllGamesDetail(GameTest.java:31)&#13;
+</system-err></testcase><testcase classname="com.vergingames.testsuite.GameTest" name="This test will Get timestamp detail"><error message="baseURI cannot be null" type="java.lang.IllegalArgumentException">baseURI cannot be null</error><system-err>baseURI cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.&lt;init&gt;(RequestSpecificationImpl.groovy:132)&#13;
+io.restassured.RestAssured.createTestSpecification(RestAssured.java:1492)&#13;
+io.restassured.RestAssured.given(RestAssured.java:711)&#13;
+net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:211)&#13;
+net.serenitybdd.rest.SerenityRest.rest(SerenityRest.java:45)&#13;
+com.vergingames.steps.GameSteps.getGamesFreq(GameSteps.java:34)&#13;
+com.vergingames.testsuite.GameTest.getGamesFreqDetail(GameTest.java:23)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="com.vergingames.bingolobby.BingoTest" skipped="0" tests="2" time="0.95" timestamp="2020-06-05T22:45:46.025+01:00[Europe/London]"><testcase classname="com.vergingames.bingolobby.BingoTest" name="verifyThatGamesExtractedHasDefaultGameFrequencyIs30000"><error message="baseURI cannot be null" type="java.lang.IllegalArgumentException">baseURI cannot be null</error><system-err>baseURI cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.&lt;init&gt;(RequestSpecificationImpl.groovy:132)&#13;
+io.restassured.RestAssured.createTestSpecification(RestAssured.java:1492)&#13;
+io.restassured.RestAssured.given(RestAssured.java:711)&#13;
+net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:211)&#13;
+net.serenitybdd.rest.SerenityRest.rest(SerenityRest.java:45)&#13;
+com.vergingames.steps.GameSteps.gettingAllGamesInfo(GameSteps.java:14)&#13;
+com.vergingames.bingolobby.BingoTest.test001(BingoTest.java:29)&#13;
+</system-err></testcase><testcase classname="com.vergingames.bingolobby.BingoTest" name="This test will verify that the startTime for all Games is always future timestamp"><error message="baseURI cannot be null" type="java.lang.IllegalArgumentException">baseURI cannot be null</error><system-err>baseURI cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.&lt;init&gt;(RequestSpecificationImpl.groovy:132)&#13;
+io.restassured.RestAssured.createTestSpecification(RestAssured.java:1492)&#13;
+io.restassured.RestAssured.given(RestAssured.java:711)&#13;
+net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:211)&#13;
+net.serenitybdd.rest.SerenityRest.rest(SerenityRest.java:45)&#13;
+com.vergingames.steps.GameSteps.gettingAllGamesInfo(GameSteps.java:14)&#13;
+com.vergingames.bingolobby.BingoTest.test002(BingoTest.java:41)&#13;
+</system-err></testcase></testsuite>
